@@ -1,0 +1,101 @@
+@import "../../vars.css";
+
+.navbar {
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Stick it to the top */
+  left: 0;
+  width: 100%; /* Full width */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background: rgba(5, 22, 47, 0.1); /* Slightly transparent black */
+  backdrop-filter: blur(5px); /* Optional: Blurred background effect */
+  z-index: 1000; /* Ensure it's above other content */
+  transition: background 0.3s ease; /* Smooth transition for background */
+  height: 70px; /* Ensure a fixed height */
+}
+
+.home {
+  display: flex;
+  .logo {
+    margin: 0 6px;
+    width: 42px;
+    vertical-align: middle;
+  }
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+  :hover {
+    transition: all 0.2s ease-in-out;
+    color: rgb(248, 165, 93);
+    cursor: pointer;
+  }
+}
+
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}

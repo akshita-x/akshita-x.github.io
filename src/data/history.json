@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Lead Cyber Security Analyst",
+    "organisation": "Essen Vission Pvt Ltd (India)",
+    "startDate": "Jan, 2020",
+    "endDate": "April, 2023",
+    "experiences": ["Led a SOC team", "Enhanced threat detection accuracy by 65%"],
+    "imageSrc": "history/essen.png"
+  },
+  {
+    "role": "Graduate Teaching Assistant",
+    "organisation": "UNC Charlotte (USA)",
+    "startDate": "January, 2025",
+    "endDate": "Present",
+    "experiences": ["Administered students in setting up machines", "Hands-on labs for students"],
+    "imageSrc": "history/uncc.png"
+  }
+]

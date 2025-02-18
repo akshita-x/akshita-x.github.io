@@ -1,0 +1,43 @@
+@import "../../vars.css";
+
+.footer {
+  position: relative;
+  top: auto; /* Position it at the bottom */
+  left: 0;
+  width: 100%; /* Full width */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10%;
+  justify-content: center;
+  color: var(--color-text);
+  background: rgba(5, 22, 47, 0.1); /* Slightly transparent black */
+  transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2px 0;
+}
+
+.madeWith {
+  font-size: 22px;
+  margin: 8px 0;
+  text-decoration: solid;
+  color: var(--color-text);
+}
+
+.attribution {
+  font-size: 14px;
+  margin: 1px 0;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--color-text);
+  a:link, a:visited {
+    color: var(--color-primary);
+  }
+}

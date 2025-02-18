@@ -1,0 +1,50 @@
+[
+  {
+    "title": "SIEM",
+    "imageSrc": "skills/siem.png"
+  },
+  {
+    "title": "Splunk",
+    "imageSrc": "skills/splunk.png"
+  },
+  {
+    "title": "Elasticsearch",
+    "imageSrc": "skills/elasticsearch.png"
+  },
+  {
+    "title": "SOC Monitoring",
+    "imageSrc": "skills/soc.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "CASB",
+    "imageSrc": "skills/casb.png"
+  },
+  {
+    "title": "Firewalls",
+    "imageSrc": "skills/firewalls.png"
+  },
+  {
+    "title": "Forcepoint DLP",
+    "imageSrc": "skills/forcepoint.png"
+  },
+  {
+    "title": "Titus",
+    "imageSrc": "skills/titus.png"
+  },
+  {
+    "title": "Netskope DLP",
+    "imageSrc": "skills/netskope.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Cyberthreat Intelligence",
+    "imageSrc": "skills/cyberthreat-intelligence.png"
+  }
+]
