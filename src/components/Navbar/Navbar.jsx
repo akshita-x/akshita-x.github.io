@@ -19,7 +19,7 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <a className={styles.title} onClick={() => window.scrollTo(0, 0)}>
         <p className={styles.home}>
           Akshita <img className={styles.logo} src={getImageUrl(`nav/avatar-0${avatarNum}.png`)}
              alt="logo" />

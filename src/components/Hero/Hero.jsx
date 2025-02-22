@@ -15,10 +15,10 @@ export const Hero = () => {
         </p>
         <div className={styles.groupHor}>
           <a href="mailto:asharm@uncc.edu" className={styles.contactBtn}>
-            Email me
+            Email
           </a>
           <a href={getImageUrl("resume/Akshita_resume.pdf")} className={styles.contactBtn} target="_blank">
-            My Resume
+            Resume
           </a>
           <a href="https://www.linkedin.com/in/akshita-sharma01" className={styles.contactBtn} target="_blank">
             LinkedIn
