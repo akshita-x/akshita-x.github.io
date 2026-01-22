@@ -8,13 +8,13 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Akshita!</h1>
         <p className={styles.description}>
-          I'm a lead Cybersecurity Analyst with expertise in Security Operations, Threat Detection, Incident Response, and Data Loss Prevention (DLP). 
+          I'm a lead Cybersecurity Analyst @ Archer Aviation with expertise in and Data Loss Prevention (DLP), Security Operations, Threat Detection and Incident Response. 
         </p>
         <p className={styles.description}>
           Let's connect!
         </p>
         <div className={styles.groupHor}>
-          <a href="mailto:asharm@uncc.edu" className={styles.contactBtn}>
+          <a href="mailto:akshita.sharma11297@gmail.com" className={styles.contactBtn}>
             Email
           </a>
           <a href={getImageUrl("resume/Akshita_resume.pdf")} className={styles.contactBtn} target="_blank">

@@ -19,7 +19,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Cybersecurity Analyst</h3>
               <p>
-                I'm a Cybersecurity Analyst with 3+ years of experience in the DLP/Security Operations domain.
+                I'm a Cybersecurity Analyst with 4+ years of experience in the DLP/Security Operations domain.
               </p>
             </div>
           </li>
@@ -35,9 +35,9 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img className={styles.miniImage} src={getImageUrl("about/teacher.svg")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Teaching Assistant @ UNCC </h3>
+              <h3>Currently Unlocking the Skies with Archer Aviation </h3>
               <p>
-               I guided 85+ students in Malware Analysis class, administered VirtualBox, OllyDbg, Wireshark, and other malware analysis tools.
+                Leading DLP initiatives that keep Archer's electric aviation dreams from taking off with sensitive data - securing sustainable flight, one byte at a time!
               </p>
             </div>
           </li>

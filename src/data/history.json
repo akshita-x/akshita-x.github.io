@@ -1,5 +1,13 @@
 [
   {
+    "role": "Sr. Cyber Security Analyst (DLP)",
+    "organisation": "Archer Aviation, San Jose, CA",
+    "startDate": "September, 2025",
+    "endDate": "Present",
+    "experiences": ["Led the DLP effort within the CT organization.", "Restored visibility across 900+ non-reporting DLP agents, closing deployment and configuration gaps.","Reduced a 300+ incident backlog by 70% by redesigning triage workflows and aligning controls with business data flows.","Remediated 50+ true-positive insider and data exposure risks with zero business escalations.","Closed a 3-year data visibility gap by extending incident retention and integrating DLP data into SIEM."],
+    "imageSrc": "history/archer.jpg"
+  },
+  {
     "role": "Lead Cyber Security Analyst",
     "organisation": "Essen Vission Pvt Ltd (India)",
     "startDate": "Jan, 2020",
