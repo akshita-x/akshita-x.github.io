@@ -1,7 +1,7 @@
 [
   {
     "title": "Security Incident Monitoring | Injazat (UAE)",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/injazat.png",
     "description": "Spearheaded real-time security monitoring and continuous security assessments and more.",
     "skills": ["SIEM", "SOC", "IDS/IPS", "DLP", "Incident Response"],
     "demo": "https://www.github.com",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Data Security & Risk Assessment | RAK Economic Zone (UAE)",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/rak.png",
     "description": "Led a 20-member security team, ensuring the deployment of DLP and data classification tools.",
     "skills": ["Cyberthreat", "SOC", "DLP"],
     "demo": "https://www.github.com",

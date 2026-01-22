@@ -33,7 +33,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img className={styles.miniImage} src={getImageUrl("about/teacher.svg")} alt="Server icon" />
+            <img className={styles.miniImage} src={getImageUrl("about/archer-like.svg")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Currently Unlocking the Skies with Archer Aviation </h3>
               <p>

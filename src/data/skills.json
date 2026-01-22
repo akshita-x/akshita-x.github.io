@@ -46,5 +46,9 @@
   {
     "title": "Cyberthreat Intelligence",
     "imageSrc": "skills/cyberthreat-intelligence.png"
+  },
+  {
+    "title": "CASB",
+    "imageSrc": "skills/casb.png"
   }
 ]
